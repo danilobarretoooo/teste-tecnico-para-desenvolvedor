@@ -90,7 +90,7 @@ POST /api/auth/login
 GET /api/user/profile
 Authorization: Bearer <token>
 ```
-```
+
 ## 📌 API Externa
 🔹 Buscar Dados da API Externa
 GET /api/external/data
