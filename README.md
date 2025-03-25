@@ -92,9 +92,10 @@ Authorization: Bearer <token>
 ```
 
 ## 📌 API Externa
+
+```
 🔹 Buscar Dados da API Externa
 GET /api/external/data
-```
 ```
 ### **✅Critérios de Avaliação**
 ✔ Código limpo e organizado 
