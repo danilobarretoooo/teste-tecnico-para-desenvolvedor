@@ -17,7 +17,7 @@ A API segue os princípios de uma **RESTful API**, garantindo organização, esc
 - [x] **Integração com o PIX** (`POST /api/pix/payment`)  
 
 ### **2️⃣ Banco de Dados**
-- [x] PostgreSQL ou MySQL  
+- [x] PostgreSQL e H2 (Para testes unitarios)  
 - [x] Persistência com **JPA/Hibernate**  
 - [x] Hash de senhas com **BCrypt**  
 
