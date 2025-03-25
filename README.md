@@ -55,15 +55,57 @@ O frontend pode ser feito em **React ou Angular** e deve:
 ✔ Angular (com HttpClient para chamadas HTTP)  
 ✔ Bootstrap ou Material UI para estilização  
 
----
+--
 
-## 🚀 Como Rodar o Projeto
-
-### **📌 Backend**
-
-1️⃣ Clone o repositório:  
-```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio/backend
+## 📌 Endpoints da API
 
 
+```
+Autenticação
+🔹 Registrar Usuário
+POST /api/auth/register
+📌 Body (JSON)
+{
+  "email": "usuario@email.com",
+  "password": "senha123"
+}
+
+🔹 Login de Usuário
+POST /api/auth/login
+📌 Body (JSON)
+{
+  "email": "usuario@email.com",
+  "password": "senha123"
+}
+
+📌 Resposta (Token JWT)
+{
+  "token": "eyJhbGciOiJIUzI1..."
+}
+
+```
+## 📌 Usuário
+```
+🔹 Buscar Perfil do Usuário (Requer Token JWT)
+GET /api/user/profile
+Authorization: Bearer <token>
+```
+```
+## 📌 API Externa
+🔹 Buscar Dados da API Externa
+GET /api/external/data
+```
+
+### **✅Critérios de Avaliação**
+✔ Código limpo e organizado 
+
+✔ Autenticação segura (hash de senha + JWT)  
+
+✔ Frontend funcional e responsivo 
+
+✔ Uso correto de consumo de APIs no frontend e backend 
+
+
+
+### **📝 Autor**
+👤 Danilo Barreto Lima Santos
