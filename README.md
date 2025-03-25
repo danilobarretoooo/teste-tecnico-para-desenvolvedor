@@ -129,13 +129,19 @@ Authorization: Bearer <token>
 ```
 ### **✅Critérios de Avaliação**
 ✔ Código limpo e organizado
+
 ✔ API RESTful bem estruturada
+
 ✔ Segurança na autenticação (hash de senha + JWT)
+
 ✔ Integração correta com a API do Banco EFI
+
 ✔ Integração funcional com PIX
+
 ✔ Frontend responsivo e funcional
+
 ✔ Uso correto de consumo de APIs no frontend e backend
-✔ Documentação completa
+
 
 
 
